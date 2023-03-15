@@ -371,6 +371,10 @@ function gameStart()
     document.getElementById("gameStart").disabled = true;
     //const btn = document.getElementById("gameStart").disabled = true;
     //btn.disabled = true;
+    const music = new Audio('se_discovery_1.mp3');
+    music.currentTime = 0;
+    music.play();
+
     play();
 
 }
